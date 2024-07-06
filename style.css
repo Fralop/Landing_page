@@ -33,7 +33,7 @@ body {
 }
 
 .third {
-
+    justify-content: center;
 }
 
 .fourth {
@@ -41,7 +41,7 @@ body {
 }
 
 .footer {
-
+    justify-content: center;
 }
 
 a {
