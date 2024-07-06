@@ -4,6 +4,39 @@
     box-sizing: border-box;
 }
 
-html, body {
+body {
     min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
+
+.header, .first, .second, .third, .fourth, .footer {
+    display: flex;
+    align-items: center;
+    flex: 1 1 auto;
+}
+
+.header {
+
+}
+
+.first {
+
+}
+
+.second {
+
+}
+
+.third {
+
+}
+
+.fourth {
+
+}
+
+.footer {
+
+}
+
