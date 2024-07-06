@@ -21,15 +21,24 @@ body {
 }
 
 .logo {
-    margin-right: auto;
+    
 }
 
 .first {
+    justify-content: center;
+}
 
+.first .one {
+    display: flex;
+    flex-direction: column;
 }
 
 .second {
+    flex-direction: column;
+}
 
+.second .two {
+    display: flex;
 }
 
 .third {
@@ -52,3 +61,8 @@ ul {
     list-style-type: none;
     justify-content: flex-end;
   }
+
+img {
+    width: 150px;
+    height: auto;
+}
