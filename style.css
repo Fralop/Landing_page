@@ -10,14 +10,18 @@ body {
     flex-direction: column;
 }
 
-.header, .first, .second, .third, .fourth, .footer {
+.header, .first, .second, .third, .fourth, .footer, ul {
     display: flex;
     align-items: center;
     flex: 1 1 auto;
 }
 
 .header {
+    
+}
 
+.logo {
+    margin-right: auto;
 }
 
 .first {
@@ -42,8 +46,9 @@ body {
 
 a {
     text-decoration: none;
-  }
+}
   
 ul {
     list-style-type: none;
+    justify-content: flex-end;
   }
