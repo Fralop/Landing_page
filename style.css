@@ -39,6 +39,12 @@ body {
 
 .second .two {
     display: flex;
+    justify-content: center;
+}
+
+.figures {
+    display: flex;
+    flex-direction: column;
 }
 
 .third {
@@ -46,7 +52,16 @@ body {
 }
 
 .fourth {
+    justify-content: center;
+}
 
+.box {
+    display: flex;
+}
+
+.box .one {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer {
