@@ -19,11 +19,13 @@ body {
 
 .header {
     background-color: #1F2937;
+    padding: 5px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
+    margin-left: 200px;
 }
 
 .first {
@@ -81,6 +83,8 @@ a {
 ul {
     list-style-type: none;
     justify-content: flex-end;
+    margin-right: 200px;
+    gap: 25px;
   }
 
 .img1 {
