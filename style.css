@@ -85,17 +85,19 @@ body {
 .fourth {
     justify-content: center;
     padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding-left: 110px;
+    padding-right: 100px;
+    padding-bottom: 110px;
 }
 
 .box {
     display: flex;
-    padding-top: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    gap: 150px;
 }
 
 .box .one {
@@ -157,9 +159,15 @@ button {
     font-weight: bolder;
 }
 
-.second .text {
+.second .text, .fourth .text {
     font-size: 18px;
     color: darkgrey ;
+}
+
+.fourth .text {
+    font-size: 18px;
+    color: #e5e7eb;
+    font-weight: 350;
 }
 
 .img2 {
@@ -185,4 +193,8 @@ button {
     font-weight: bolder;
     align-self: flex-end;
     margin-right: 35px;
+}
+
+.b2 {
+    border: 2px solid white;
 }
