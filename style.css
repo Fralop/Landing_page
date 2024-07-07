@@ -19,23 +19,29 @@ body {
 
 .header {
     background-color: #1F2937;
-    padding: 5px;
+    padding: 17px;
 }
 
 .logo {
     color: #F9FAF8;
     font-size: 24px;
-    margin-left: 200px;
+    margin-left: 190px;
 }
 
 .first {
     justify-content: center;
     background-color: #1F2937;
+    padding-top: 80px;
+    padding-left: 210px;
+    padding-right: 200px;
+    padding-bottom: 125px;
+    gap: 160px;
 }
 
 .first .one {
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 .second {
@@ -83,12 +89,13 @@ a {
 ul {
     list-style-type: none;
     justify-content: flex-end;
-    margin-right: 200px;
+    margin-right: 175px;
+    margin-top: 2.5px;
     gap: 25px;
   }
 
 .img1 {
-    width: 300px;
+    width: 400px;
     height: auto;
 }
 
@@ -109,7 +116,13 @@ button, .box {
 }
 
 button {
-    border-radius: 7px;
+    border-radius: 10px;
+    margin-top: 10px;
+    font-size: 18px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
 .second .title {
