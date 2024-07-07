@@ -76,14 +76,26 @@ body {
     background-color: #e5e7eb;
     justify-content: center;
     flex-direction: column;
+    padding-top: 125px;
+    padding-left: 350px;
+    padding-right: 300px;
+    padding-bottom: 100px;
 }
 
 .fourth {
     justify-content: center;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 .box {
     display: flex;
+    padding-top: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    padding-bottom: 100px;
 }
 
 .box .one {
@@ -169,7 +181,8 @@ button {
 
 .signature {
     color: #1F2937;
-    font-size: 25px;
+    font-size: 23px;
     font-weight: bolder;
     align-self: flex-end;
+    margin-right: 35px;
 }
