@@ -108,6 +108,9 @@ body {
 .footer {
     background-color: #1F2937;
     justify-content: center;
+    font-size: 17px;
+    color: #e5e7eb;
+    padding: 40px;
 }
 
 a {
