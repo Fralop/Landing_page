@@ -46,16 +46,30 @@ body {
 
 .second {
     flex-direction: column;
+    padding-top: 45px;
+    padding-left: 210px;
+    padding-right: 200px;
+    padding-bottom: 110px;
+    gap: 50px;
 }
 
 .second .two {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 .figures {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+}
+
+.figures .text {
+    padding-left: 40px;
+    padding-right: 40px;
+    text-align: center;
 }
 
 .third {
@@ -137,7 +151,12 @@ button {
 }
 
 .img2 {
-    width: 130px;
+    width: 200px;
+    height: 200px;
+}
+
+.img3 {
+    width: 200px;
     height: auto;
 }
 
